@@ -35,7 +35,10 @@ case source
             if (!{effect}) {
               const from = '出自 ' + data.from
               const sub = !{JSON.stringify(subContent)}
-              sub.unshift(data.hitokoto, from)
+              //- 原生主题的副标题格式为['内容', '出自xxx'] 导致关闭loop时打字效果停留在出处
+              //- 这里把出处的文本移出内容数组了
+              //- sub.unshift(data.hitokoto, from)
+              sub.unshift(data.hitokoto)
               typedJSFn.init(sub)
             } else {
               document.getElementById('subtitle').textContent = data.hitokoto
