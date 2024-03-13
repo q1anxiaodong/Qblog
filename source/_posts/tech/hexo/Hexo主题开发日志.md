@@ -20,6 +20,7 @@ series: hexo
 新建一篇文章
  ```sh
  hexo new [layout] <title>
+ hexo new [layout] <title> --path ./<文件夹名>/文件名
  ```
 - layout：设置新文章要使用的布局模板，可以是页面、帖子、草稿等。
 - title：文章的文件名

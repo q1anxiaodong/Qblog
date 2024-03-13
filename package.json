@@ -7,7 +7,8 @@
     "clean": "hexo clean",
     "deploy": "hexo deploy",
     "server": "hexo server",
-    "push:git": "hexo cl && hexo g && hexo d"
+    "push:html": "hexo cl && hexo g && hexo d",
+    "push:md": ""
   },
   "hexo": {
     "version": "7.1.1"
