@@ -104,3 +104,7 @@ deploy:
   type: git
   repo: https://github.com/q1anxiaodong/q1anxiaodong.github.io
   branch: main
+
+aplayer: 
+  meting: true
+  asset_inject: false
