@@ -69,7 +69,3 @@ npm install server -w web
 yarn工作空间内置了mono-repo功能，可以按照原文进行配置。
 5. lerna + yarn workspaces
 可见原文。
-
-
-
-
