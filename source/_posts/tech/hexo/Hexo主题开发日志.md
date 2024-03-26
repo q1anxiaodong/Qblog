@@ -15,6 +15,18 @@ series: hexo
   - 为什么主题中的`aplayer.pug`模板通过直接引入aplayer资源就能直接生成一个音乐播放器？另外目前的音乐播放器只能播放非vip的音频资源，我想让他播放vip歌曲（我有vip）。
     - 现在我从之前用过的一个php实现的主题中找到一点端倪，应该能有帮助，源码在本地叫`handsome`主题，相关文档在[这里](https://auth.ihewro.com/user/docs#/preference/player) [这里](https://auth.ihewro.com/user/docs#/preference/shortCode?id=%e9%9f%b3%e4%b9%90)
 
+## hexo模板
+
+hexo支持为文章模板构建模板，这真的再好不过了！具体方法图下：
+1. 在博客根目录下`scaffold`文件夹中新建模板`template.md`
+2. 编辑模板内容
+3. 创建新文章时引用相关模板，命令如下：
+```sh
+hexo new template title // template就是模板的文件名
+hexo new leetcode  多数元素 --path tech/leetcode/多数元素.md
+```
+
+
 ## hexo常用命令
 
 新建一篇文章
